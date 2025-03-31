@@ -79,7 +79,7 @@ const Portfolio = () => {
       title: 'Osono Remit',
       description: 'Fast, Secure High-Value Transactions, Zero Fees',
       imageUrl: '/images/placeholder.png',
-      projectUrl: 'https://osonoremit.com',
+      projectUrl: '#',
       role: 'Product Design Lead',
       duties: 'Mobile and Web App Design',
       detailedDescription: 'Osono Remit gives you the power to create and securely send money anywhere using USD debit cards and payout wallets. I led the product design team in creating an intuitive and secure user experience for both mobile and web platforms.'
@@ -88,7 +88,7 @@ const Portfolio = () => {
       title: 'Muzzi',
       description: 'Move your money forward, securely.',
       imageUrl: '/images/placeholder.png',
-      projectUrl: 'https://muzzi.app',
+      projectUrl: '#',
       role: 'Product Design Lead',
       duties: 'Mobile and Web App Design',
       detailedDescription: 'Muzzi gives you the power to create and securely spend anywhere using USD debit cards and payout wallets. The platform focuses on providing a seamless experience for managing international payments.'
@@ -97,7 +97,7 @@ const Portfolio = () => {
       title: 'The Kolanut',
       description: 'Stories by African Elders',
       imageUrl: '/images/placeholder.png',
-      projectUrl: 'https://thekolanut.co',
+      projectUrl: '#',
       role: 'Product Design Lead',
       duties: 'Mobile and Web App Design',
       detailedDescription: 'The Kolanut is a platform dedicated to preserving and sharing African heritage through storytelling. I designed an immersive experience that makes it easy for elders to share their stories and for users to discover them.'
@@ -106,7 +106,7 @@ const Portfolio = () => {
       title: 'Phasio',
       description: 'Give your manufacturing clients a red-carpet experience',
       imageUrl: '/images/placeholder.png',
-      projectUrl: 'https://phasio.co',
+      projectUrl: '#',
       role: 'Product Design Lead',
       duties: 'Mobile and Web App Design',
       detailedDescription: 'Phasio revolutionizes the manufacturing industry by providing a premium client management platform. The design focuses on streamlining communication and project tracking for manufacturers and their clients.'
@@ -115,7 +115,7 @@ const Portfolio = () => {
       title: 'EaglePay',
       description: 'Fast, Secure & Convenient Global Payments',
       imageUrl: '/images/placeholder.png',
-      projectUrl: 'https://eaglepay.global',
+      projectUrl: '#',
       role: 'Product Design Lead',
       duties: 'Mobile and Web App Design',
       detailedDescription: 'EaglePay is a comprehensive global payment solution that prioritizes speed and security. I led the design of both mobile and web interfaces, ensuring a consistent and user-friendly experience across all platforms.'
@@ -127,7 +127,7 @@ const Portfolio = () => {
       title: 'BeriaAI',
       description: 'Generative art platform',
       imageUrl: '/images/placeholder.png',
-      projectUrl: 'https://beria.ai',
+      projectUrl: '#',
       role: 'Product Design Lead',
       duties: 'Webflow Website Design',
       detailedDescription: 'BeriaAI showcases the intersection of artificial intelligence and artistic creation. I designed a gallery-like experience that highlights the unique generative artworks while maintaining excellent performance.'
@@ -136,7 +136,7 @@ const Portfolio = () => {
       title: 'PulseDrops 2.0',
       description: 'NFT Drops bookmarking',
       imageUrl: '/images/placeholder.png',
-      projectUrl: 'https://pulsedrops.xyz',
+      projectUrl: '#',
       role: 'Product Design Lead',
       duties: 'Webflow Website Design',
       detailedDescription: 'PulseDrops 2.0 helps users track and manage their NFT collection drops. The website design emphasizes ease of use and clear information hierarchy to help collectors stay organized.'
@@ -145,7 +145,7 @@ const Portfolio = () => {
       title: 'Spods 10™',
       description: '10mins with the most misunderstood designers',
       imageUrl: '/images/placeholder.png',
-      projectUrl: 'https://spods.design',
+      projectUrl: '#',
       role: 'Product Design Lead',
       duties: 'Webflow Website Design',
       detailedDescription: 'Spods 10™ is a unique platform featuring 10-minute interviews with innovative designers. The website design creates an engaging storytelling experience while maintaining optimal reading comfort.'
@@ -154,7 +154,7 @@ const Portfolio = () => {
       title: 'Aiko',
       description: 'All in one link in bio',
       imageUrl: '/images/placeholder.png',
-      projectUrl: 'https://aiko.bio',
+      projectUrl: '#',
       role: 'Product Design Lead',
       duties: 'Webflow Website Design',
       detailedDescription: 'Aiko provides a sophisticated link-in-bio solution for creators. The website showcases the product\'s features through an elegant and intuitive design that reflects its ease of use.'
@@ -165,7 +165,7 @@ const Portfolio = () => {
     <PortfolioContainer>
       <Header>
         <Description>
-          I work with early-stage startups to build their ideas into meaningful MVPs or scale their products to market-fit.
+        I collaborate with early-stage startups to transform their ideas into impactful MVPs and scale their products to achieve market fit.        
         </Description>
       </Header>
 

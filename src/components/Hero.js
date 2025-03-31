@@ -105,7 +105,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Hey 👋🏻, I'm Samuel. A founder, ALX SWE Student, Mobile App & Web Dev. and CS Student @{' '}
+        Hey👋🏻, I'm Samuel. A founder, ALX SWE Student, Mobile App & Web Dev. and CS Student @{' '}
         <a href="/" target="_blank" rel="noopener noreferrer" style={{ color: '#000' }}>
           KNUST
         </a>
@@ -115,9 +115,9 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        My career has been a diverse adventure — I've been a founder, teacher, designer, leader, and mentor. 
-        I love crafting products that are not just visually appealing but truly meet people's needs. 
-        My design skills and technical understanding help companies big and small bring innovative ideas to life.
+        My journey as a student has been dynamic—I’ve explored design, leadership, and mentorship while building innovative projects. 
+        I’m passionate about creating products that are not only visually appealing but also solve real problems. 
+        With a strong technical foundation, I strive to bring creative ideas to life.
       </Description>
       <motion.div
         initial={{ opacity: 0, y: 20 }}

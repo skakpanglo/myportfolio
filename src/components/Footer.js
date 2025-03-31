@@ -103,7 +103,7 @@ const Footer = () => {
       url: 'https://web.facebook.com/kepas.kon'
     },
     {
-      name: 'X',
+      name: 'x',
       url: 'https://dribbble.com/samuelakpanglo'
     },
   ];
