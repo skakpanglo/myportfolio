@@ -181,10 +181,10 @@ const Achievements = () => {
 
   const certificates = [
     {
-      name: 'Software Engineering Program',
-      issuer: 'ALX Africa',
-      date: 'Feb 2024',
-      url: '#'
+      name: 'Code App Fair Quest 1.0',
+      issuer: 'Computer Science Society, KNUST',
+      date: 'Aug 2024',
+      url: '/codeappfair.pdf'
     },
     {
       name: 'React Advanced Patterns',

@@ -76,13 +76,14 @@ const SectionTitle = styled.h2`
 const Portfolio = () => {
   const startupProjects = [
     {
-      title: 'Osono Remit',
-      description: 'Fast, Secure High-Value Transactions, Zero Fees',
+      title: 'Connect',
+      description: 'Introducing Connect: The Future of Digital Networking',
       imageUrl: '/images/placeholder.png',
       projectUrl: '#',
-      role: 'Product Design Lead',
+      role: 'Fullstack Developer',
       duties: 'Mobile and Web App Design',
-      detailedDescription: 'Osono Remit gives you the power to create and securely send money anywhere using USD debit cards and payout wallets. I led the product design team in creating an intuitive and secure user experience for both mobile and web platforms.'
+      detailedDescription: 'Connect is an innovative platform that seamlessly links  individuals and business professionals to their digital presence through a unique QR code or biometric code. This smart networking solution allows users to subscribe, create a profile, and have a personalized business card delivered to their doorstep.',
+      showComingSoon: true
     },
     {
       title: 'Muzzi',
@@ -181,6 +182,7 @@ const Portfolio = () => {
             role={project.role}
             duties={project.duties}
             detailedDescription={project.detailedDescription}
+            showComingSoon={project.showComingSoon}
           />
         ))}
       </ProjectsGrid>

@@ -59,6 +59,19 @@ const ImageContainer = styled.div`
   }
 `;
 
+const ComingSoonLabel = styled.div`
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 255, 0.2);
+  color: blue;
+  padding: 8px 16px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 2;
+`;
+
 const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
@@ -152,7 +165,7 @@ const DetailedDescription = styled.div`
   line-height: 1.8;
 `;
 
-const PortfolioCard = ({ title, description, imageUrl, projectUrl, role, duties, detailedDescription }) => {
+const PortfolioCard = ({ title, description, imageUrl, projectUrl, role, duties, detailedDescription, showComingSoon }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleExpand = (e) => {
@@ -165,6 +178,7 @@ const PortfolioCard = ({ title, description, imageUrl, projectUrl, role, duties,
       <ProjectLink href={projectUrl} target="_blank" rel="noopener noreferrer">
         <Card>
           <ImageContainer>
+            {showComingSoon && <ComingSoonLabel>Coming Soon</ComingSoonLabel>}
             <ProjectImage 
               src={imageUrl || '/images/placeholder.jpg'} 
               alt={title}
