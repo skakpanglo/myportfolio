@@ -129,7 +129,7 @@ const Navbar = () => {
         <NavLink to="/portfolio" onClick={closeMenu}>My Portfolio</NavLink>
         <NavLink to="/achievements" onClick={closeMenu}>Achievements</NavLink>
         <NavLink to="/blog" onClick={closeMenu}>Blog</NavLink>
-        <ContactButton to="/lets-talk" onClick={closeMenu}>Let's talk 👋</ContactButton>
+        <ContactButton to="/lets-talk" onClick={closeMenu}>Let's talk👋</ContactButton>
       </NavLinks>
     </Nav>
   );
