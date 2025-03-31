@@ -126,7 +126,7 @@ const Hero = () => {
       >
         <ButtonContainer>
           <CTAButton to="/lets-talk">Let's talk</CTAButton>
-          <ResumeButton href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <ResumeButton href="/" target="_blank" rel="noopener noreferrer">
             Resume
           </ResumeButton>
         </ButtonContainer>
