@@ -125,8 +125,8 @@ const Navbar = () => {
         <span />
       </MenuButton>
       <NavLinks isOpen={isMenuOpen}>
-        <NavLink to="/" onClick={closeMenu}>Home</NavLink>
-        <NavLink to="/portfolio" onClick={closeMenu}>Portfolio</NavLink>
+        <NavLink to="/" onClick={closeMenu}>About</NavLink>
+        <NavLink to="/portfolio" onClick={closeMenu}>My Portfolio</NavLink>
         <NavLink to="/achievements" onClick={closeMenu}>Achievements</NavLink>
         <NavLink to="/blog" onClick={closeMenu}>Blog</NavLink>
         <ContactButton to="/lets-talk" onClick={closeMenu}>Let's talk 👋</ContactButton>
