@@ -3,25 +3,26 @@ import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 
 const BlogContainer = styled.div`
+  font-family: 'Gambarino', serif;
   max-width: 1200px;
   margin: 0 auto;
   padding: 6rem 2rem;
-
-  @media (max-width: 768px) {
-    padding: 4rem 1rem;
-  }
+  text-align: center;
 `;
 
 const Title = styled.h1`
-  font-size: 3.5rem;
-  margin-bottom: 4rem;
-  
-  @media (max-width: 768px) {
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-  }
+  font-family: 'Gambarino', serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
 `;
 
+const ComingSoonText = styled.p`
+  font-family: 'Gambarino', serif;
+  font-size: 1.5rem;
+  color: #555;
+`;
+
+// Keep styles for future blog layout
 const BlogGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -111,7 +112,10 @@ const Blog = () => {
 
   return (
     <BlogContainer>
-      <Title>Latest Insights</Title>
+      <Title>Latest Tech Insights</Title>
+      <ComingSoonText>🚧 Coming soon. Stay tuned! 🚧</ComingSoonText>
+
+      {/*
       <BlogGrid>
         {posts.map(post => (
           <BlogPost
@@ -134,6 +138,7 @@ const Blog = () => {
           </BlogPost>
         ))}
       </BlogGrid>
+      */}
     </BlogContainer>
   );
 };

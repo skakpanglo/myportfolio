@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { FiArrowUpRight } from 'react-icons/fi';
 
 const FooterContainer = styled.footer`
+  font-family: 'Gambarino', serif;
   padding: 8rem 2rem;
   background-color: #111111;
   color: #fff;
@@ -13,15 +14,18 @@ const FooterContainer = styled.footer`
 `;
 
 const FooterContent = styled.div`
+  font-family: 'Gambarino', serif;
   max-width: 1200px;
   margin: 0 auto;
 `;
 
 const Title = styled.h2`
+  font-family: 'Gambarino', serif;
   font-size: 3.5rem;
   margin-bottom: 6rem;
   font-weight: 500;
-  max-width: 900px;
+  max-width: 100%;
+  text-align: justify
   line-height: 1.2;
 
   @media (max-width: 768px) {
@@ -36,6 +40,7 @@ const Title = styled.h2`
 `;
 
 const SocialGrid = styled.div`
+  font-family: 'Gambarino', serif;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
@@ -49,6 +54,7 @@ const SocialGrid = styled.div`
 `;
 
 const SocialLink = styled.a`
+  font-family: 'Gambarino', serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -75,9 +81,9 @@ const SocialLink = styled.a`
 `;
 
 const LinkText = styled.span`
+  font-family: 'Gambarino', serif;
   font-size: 2rem;
   font-weight: 400;
-  font-family: 'Gambarino', sans-serif;
 
   @media (max-width: 768px) {
     font-size: 1.5rem;

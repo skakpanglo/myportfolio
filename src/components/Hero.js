@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 const HeroSection = styled.section`
+  font-family: 'Gambarino', serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,6 +20,7 @@ const HeroSection = styled.section`
 `;
 
 const Title = styled(motion.h1)`
+  font-family: 'Gambarino', serif;
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
@@ -34,6 +36,7 @@ const Title = styled(motion.h1)`
 `;
 
 const Description = styled(motion.p)`
+  font-family: 'Gambarino', serif;
   font-size: 1.2rem;
   line-height: 1.6;
   color: #666;
@@ -48,6 +51,7 @@ const Description = styled(motion.p)`
 `;
 
 const ButtonContainer = styled.div`
+  font-family: 'Gambarino', serif;
   display: flex;
   gap: 1.5rem;
   align-items: center;
@@ -61,6 +65,7 @@ const ButtonContainer = styled.div`
 
 const CTAButton = styled(Link)`
   display: inline-block;
+  font-family: 'Gambarino', serif;
   padding: 1rem 2rem;
   background: #000;
   color: #fff;
@@ -79,6 +84,7 @@ const CTAButton = styled(Link)`
 `;
 
 const ResumeButton = styled.a`
+  font-family: 'Gambarino', serif;
   display: inline-block;
   padding: 1rem 2rem;
   background-color: transparent;
@@ -105,7 +111,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Hey👋🏻, I'm Samuel. A founder, ALX SWE Student, Mobile App & Web Dev. and CS Student @{' '}
+        Hey👋🏻, I'm Samuel. A founder, ALX SWE Student, Mobile Application & Web Developer and CS Student @{' '}
         <a href="/" target="_blank" rel="noopener noreferrer" style={{ color: '#000' }}>
           KNUST
         </a>

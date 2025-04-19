@@ -4,19 +4,21 @@ import { motion } from 'framer-motion';
 import { FiExternalLink, FiAward, FiBriefcase } from 'react-icons/fi';
 
 const AchievementsContainer = styled.div`
+  font-family: 'Gambarino', serif;
   max-width: 1100px;
   margin: 0 auto;
   padding: 8rem 2rem;
 `;
 
 const Header = styled.div`
+  font-family: 'Gambarino', serif;
   margin-bottom: 6rem;
 `;
 
 const Title = styled.h1`
+  font-family: 'Gambarino', serif;
   font-size: 3.5rem;
   margin-bottom: 1.5rem;
-  font-family: 'Gambarino', serif;
   
   span {
     color: #4b10fe;
@@ -24,6 +26,7 @@ const Title = styled.h1`
 `;
 
 const Subtitle = styled.p`
+  font-family: 'Gambarino', serif;
   font-size: 1.2rem;
   color: #666;
   max-width: 600px;
@@ -31,6 +34,7 @@ const Subtitle = styled.p`
 `;
 
 const SectionTitle = styled.h2`
+  font-family: 'Gambarino', serif;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -42,6 +46,7 @@ const SectionTitle = styled.h2`
 `;
 
 const Grid = styled.div`
+  font-family: 'Gambarino', serif;
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -49,6 +54,7 @@ const Grid = styled.div`
 `;
 
 const Card = styled(motion.div)`
+  font-family: 'Gambarino', serif;
   background: white;
   padding: 2rem;
   position: relative;
@@ -61,6 +67,7 @@ const Card = styled(motion.div)`
 `;
 
 const InternshipCard = styled(Card)`
+  font-family: 'Gambarino', serif;
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 2rem;
@@ -72,6 +79,7 @@ const InternshipCard = styled(Card)`
 `;
 
 const CompanyLogo = styled.div`
+  font-family: 'Gambarino', serif;
   width: 80px;
   height: 80px;
   background: #f5f5f5;
@@ -92,6 +100,7 @@ const CompanyName = styled.h3`
 `;
 
 const Duration = styled.span`
+  font-family: 'Gambarino', serif;
   font-size: 0.9rem;
   color: #666;
   display: block;
@@ -99,18 +108,21 @@ const Duration = styled.span`
 `;
 
 const Description = styled.p`
+  font-family: 'Gambarino', serif;
   color: #444;
   line-height: 1.6;
   margin-bottom: 1.5rem;
 `;
 
 const Skills = styled.div`
+  font-family: 'Gambarino', serif;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 `;
 
 const Skill = styled.span`
+  font-family: 'Gambarino', serif;
   background: #f0f0f0;
   padding: 0.4rem 1rem;
   border-radius: 2rem;
@@ -119,6 +131,7 @@ const Skill = styled.span`
 `;
 
 const CertificateCard = styled(Card)`
+  font-family: 'Gambarino', serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,6 +153,7 @@ const CertificateName = styled.h3`
 `;
 
 const Issuer = styled.span`
+  font-family: 'Gambarino', serif;
   font-size: 0.9rem;
   color: #666;
   display: block;
@@ -147,6 +161,7 @@ const Issuer = styled.span`
 `;
 
 const ViewButton = styled.a`
+  font-family: 'Gambarino', serif;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -170,13 +185,13 @@ const Achievements = () => {
       description: 'Working on various software engineering projects, focusing on full-stack development and system design. Collaborating with international teams and mentoring fellow students.',
       skills: ['C Programming', 'Python', 'Shell Scripting', 'Linux', 'Git', 'Data Structures', 'Algorithms']
     },
-    {
-      company: 'Codebase',
-      logo: 'CB',
-      duration: 'Jan 2024 - Present',
-      description: 'Leading frontend development initiatives and implementing responsive design principles. Working with modern JavaScript frameworks and state management solutions.',
-      skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Redux', 'API Integration']
-    }
+    //{
+    //  company: 'Codebase',
+    //  logo: 'CB',
+    //  duration: 'Jan 2024 - Present',
+    //  description: 'Leading frontend development initiatives and implementing responsive design principles. Working with modern JavaScript frameworks and state management solutions.',
+    //  skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Redux', 'API Integration']
+    //}
   ];
 
   const certificates = [

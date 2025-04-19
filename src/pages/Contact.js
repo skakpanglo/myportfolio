@@ -2,6 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 const ContactSection = styled.section`
+  font-family: 'Gambarino', serif;
   min-height: auto;
   padding-bottom: 7rem;
   width: 100%;
@@ -37,6 +38,7 @@ const Heading = styled.h2`
 `;
 
 const ContactForm = styled.form`
+  font-family: 'Gambarino', serif;
   max-width: 100rem;
   margin: 0 auto;
   text-align: left;
@@ -48,6 +50,7 @@ const ContactForm = styled.form`
 `;
 
 const InputBox = styled.div`
+  font-family: 'Gambarino', serif;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -60,6 +63,7 @@ const InputBox = styled.div`
 `;
 
 const InputField = styled.div`
+  font-family: 'Gambarino', serif;
   position: relative;
   width: calc(50% - 1rem);
   margin: 1.4rem 0;
@@ -68,7 +72,7 @@ const InputField = styled.div`
     width: 100%;
     padding: 1.2rem;
     font-size: 1.4rem;
-    color: black;
+    color: #999;
     background: white;
     border-radius: none;
     border: .1rem solid lightgrey;
@@ -133,6 +137,7 @@ const InputField = styled.div`
 `;
 
 const TextareaField = styled.div`
+  font-family: 'Gambarino', serif;
   position: relative;
   margin: 0.8rem 0 2.7rem;
   width: 100%;
@@ -239,7 +244,7 @@ const Contact = () => {
               type="date" 
               name="startDate" 
               required
-              min={new Date().toISOString().split('T')[0]} // Set minimum date to today
+              min={new Date().toISOString().split('T')[0]}
             />
           </InputField>
         </InputBox>

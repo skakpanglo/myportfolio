@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
 
 const Nav = styled.nav`
+  font-family: 'Gambarino', serif;
   padding: 1.5rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -15,6 +16,7 @@ const Nav = styled.nav`
 `;
 
 const Logo = styled(Link)`
+  font-family: 'Gambarino', serif;
   font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
@@ -23,6 +25,7 @@ const Logo = styled(Link)`
 `;
 
 const NavLinks = styled.div`
+  font-family: 'Gambarino', serif;
   display: flex;
   gap: 2rem;
   align-items: center;
@@ -42,6 +45,7 @@ const NavLinks = styled.div`
 `;
 
 const NavLink = styled(Link)`
+  font-family: 'Gambarino', serif;
   text-decoration: none;
   color: #000;
   font-weight: 500;
@@ -53,6 +57,7 @@ const NavLink = styled(Link)`
 `;
 
 const ContactButton = styled(Link)`
+  font-family: 'Gambarino', serif;
   padding: 0.5rem 1rem;
   background: #000;
   color: #fff;
@@ -66,6 +71,7 @@ const ContactButton = styled(Link)`
 `;
 
 const MenuButton = styled.button`
+  font-family: 'Gambarino', serif;
   display: none;
   background: none;
   border: none;

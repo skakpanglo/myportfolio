@@ -85,82 +85,82 @@ const Portfolio = () => {
       detailedDescription: 'Connect is an innovative platform that seamlessly links  individuals and business professionals to their digital presence through a unique QR code or biometric code. This smart networking solution allows users to subscribe, create a profile, and have a personalized business card delivered to their doorstep.',
       showComingSoon: true
     },
-    {
-      title: 'Muzzi',
-      description: 'Move your money forward, securely.',
-      imageUrl: '/images/placeholder.png',
-      projectUrl: '#',
-      role: 'Product Design Lead',
-      duties: 'Mobile and Web App Design',
-      detailedDescription: 'Muzzi gives you the power to create and securely spend anywhere using USD debit cards and payout wallets. The platform focuses on providing a seamless experience for managing international payments.'
-    },
-    {
-      title: 'The Kolanut',
-      description: 'Stories by African Elders',
-      imageUrl: '/images/placeholder.png',
-      projectUrl: '#',
-      role: 'Product Design Lead',
-      duties: 'Mobile and Web App Design',
-      detailedDescription: 'The Kolanut is a platform dedicated to preserving and sharing African heritage through storytelling. I designed an immersive experience that makes it easy for elders to share their stories and for users to discover them.'
-    },
-    {
-      title: 'Phasio',
-      description: 'Give your manufacturing clients a red-carpet experience',
-      imageUrl: '/images/placeholder.png',
-      projectUrl: '#',
-      role: 'Product Design Lead',
-      duties: 'Mobile and Web App Design',
-      detailedDescription: 'Phasio revolutionizes the manufacturing industry by providing a premium client management platform. The design focuses on streamlining communication and project tracking for manufacturers and their clients.'
-    },
-    {
-      title: 'EaglePay',
-      description: 'Fast, Secure & Convenient Global Payments',
-      imageUrl: '/images/placeholder.png',
-      projectUrl: '#',
-      role: 'Product Design Lead',
-      duties: 'Mobile and Web App Design',
-      detailedDescription: 'EaglePay is a comprehensive global payment solution that prioritizes speed and security. I led the design of both mobile and web interfaces, ensuring a consistent and user-friendly experience across all platforms.'
-    }
+    //{
+    //  title: 'Muzzi',
+    //  description: 'Move your money forward, securely.',
+    //  imageUrl: '/images/placeholder.png',
+    //  projectUrl: '#',
+    //  role: 'Product Design Lead',
+    //  duties: 'Mobile and Web App Design',
+    //  detailedDescription: 'Muzzi gives you the power to create and securely spend anywhere using USD debit cards and payout wallets. The platform focuses on providing a seamless experience for managing international payments.'
+    //},
+    //{
+    //  title: 'The Kolanut',
+    //  description: 'Stories by African Elders',
+    //  imageUrl: '/images/placeholder.png',
+    //  projectUrl: '#',
+    //  role: 'Product Design Lead',
+    //  duties: 'Mobile and Web App Design',
+    //  detailedDescription: 'The Kolanut is a platform dedicated to preserving and sharing African heritage through storytelling. I designed an immersive experience that makes it easy for elders to share their stories and for users to discover them.'
+    //},
+    //{
+    //  title: 'Phasio',
+    //  description: 'Give your manufacturing clients a red-carpet experience',
+    //  imageUrl: '/images/placeholder.png',
+    //  projectUrl: '#',
+    //  role: 'Product Design Lead',
+    //  duties: 'Mobile and Web App Design',
+    //  detailedDescription: 'Phasio revolutionizes the manufacturing industry by providing a premium client management platform. The design focuses on streamlining communication and project tracking for manufacturers and their clients.'
+    //},
+    //{
+    //  title: 'EaglePay',
+    //  description: 'Fast, Secure & Convenient Global Payments',
+    //  imageUrl: '/images/placeholder.png',
+    //  projectUrl: '#',
+    //  role: 'Product Design Lead',
+    //  duties: 'Mobile and Web App Design',
+    //  detailedDescription: 'EaglePay is a comprehensive global payment solution that prioritizes speed and security. I led the design of both mobile and web interfaces, ensuring a consistent and user-friendly experience across all platforms.'
+    //}
   ];
 
-  const webflowProjects = [
-    {
-      title: 'BeriaAI',
-      description: 'Generative art platform',
-      imageUrl: '/images/placeholder.png',
-      projectUrl: '#',
-      role: 'Product Design Lead',
-      duties: 'Webflow Website Design',
-      detailedDescription: 'BeriaAI showcases the intersection of artificial intelligence and artistic creation. I designed a gallery-like experience that highlights the unique generative artworks while maintaining excellent performance.'
-    },
-    {
-      title: 'PulseDrops 2.0',
-      description: 'NFT Drops bookmarking',
-      imageUrl: '/images/placeholder.png',
-      projectUrl: '#',
-      role: 'Product Design Lead',
-      duties: 'Webflow Website Design',
-      detailedDescription: 'PulseDrops 2.0 helps users track and manage their NFT collection drops. The website design emphasizes ease of use and clear information hierarchy to help collectors stay organized.'
-    },
-    {
-      title: 'Spods 10™',
-      description: '10mins with the most misunderstood designers',
-      imageUrl: '/images/placeholder.png',
-      projectUrl: '#',
-      role: 'Product Design Lead',
-      duties: 'Webflow Website Design',
-      detailedDescription: 'Spods 10™ is a unique platform featuring 10-minute interviews with innovative designers. The website design creates an engaging storytelling experience while maintaining optimal reading comfort.'
-    },
-    {
-      title: 'Aiko',
-      description: 'All in one link in bio',
-      imageUrl: '/images/placeholder.png',
-      projectUrl: '#',
-      role: 'Product Design Lead',
-      duties: 'Webflow Website Design',
-      detailedDescription: 'Aiko provides a sophisticated link-in-bio solution for creators. The website showcases the product\'s features through an elegant and intuitive design that reflects its ease of use.'
-    }
-  ];
+  //const webflowProjects = [
+  //  {
+  //    title: 'BeriaAI',
+  //    description: 'Generative art platform',
+  //    imageUrl: '/images/placeholder.png',
+  //    projectUrl: '#',
+  //    role: 'Product Design Lead',
+  //    duties: 'Webflow Website Design',
+  //    detailedDescription: 'BeriaAI showcases the intersection of artificial intelligence and artistic creation. I designed a gallery-like experience that highlights the unique generative artworks while maintaining excellent performance.'
+  //  },
+  //  {
+  //    title: 'PulseDrops 2.0',
+  //    description: 'NFT Drops bookmarking',
+  //    imageUrl: '/images/placeholder.png',
+  //    projectUrl: '#',
+  //    role: 'Product Design Lead',
+  //    duties: 'Webflow Website Design',
+  //    detailedDescription: 'PulseDrops 2.0 helps users track and manage their NFT collection drops. The website design emphasizes ease of use and clear information hierarchy to help collectors stay organized.'
+  //  },
+  //  {
+  //    title: 'Spods 10™',
+  //    description: '10mins with the most misunderstood designers',
+  //    imageUrl: '/images/placeholder.png',
+  //    projectUrl: '#',
+  //    role: 'Product Design Lead',
+  //    duties: 'Webflow Website Design',
+  //    detailedDescription: 'Spods 10™ is a unique platform featuring 10-minute interviews with innovative designers. The website design creates an engaging storytelling experience while maintaining optimal reading comfort.'
+  //  },
+  //  {
+  //    title: 'Aiko',
+  //    description: 'All in one link in bio',
+  //    imageUrl: '/images/placeholder.png',
+  //    projectUrl: '#',
+  //    role: 'Product Design Lead',
+  //    duties: 'Webflow Website Design',
+  //    detailedDescription: 'Aiko provides a sophisticated link-in-bio solution for creators. The website showcases the product\'s features through an elegant and intuitive design that reflects its ease of use.'
+  //  }
+  //];
 
   return (
     <PortfolioContainer>
@@ -187,7 +187,7 @@ const Portfolio = () => {
         ))}
       </ProjectsGrid>
 
-      <Description style={{ marginBottom: '2rem' }}>
+      {/* <Description style={{ marginBottom: '2rem' }}>
         I also create webflow websites and templates for the community.
       </Description>
       <ProjectsGrid>
@@ -203,7 +203,7 @@ const Portfolio = () => {
             detailedDescription={project.detailedDescription}
           />
         ))}
-      </ProjectsGrid>
+      </ProjectsGrid> */}
 
     </PortfolioContainer>
   );
