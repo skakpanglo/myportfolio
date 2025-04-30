@@ -85,24 +85,24 @@ const Portfolio = () => {
       detailedDescription: 'Connect is an innovative platform that seamlessly links  individuals and business professionals to their digital presence through a unique QR code or biometric code. This smart networking solution allows users to subscribe, create a profile, and have a personalized business card delivered to their doorstep.',
       showComingSoon: true
     },
-    //{
-    //  title: 'Muzzi',
-    //  description: 'Move your money forward, securely.',
-    //  imageUrl: '/images/placeholder.png',
-    //  projectUrl: '#',
-    //  role: 'Product Design Lead',
-    //  duties: 'Mobile and Web App Design',
-    //  detailedDescription: 'Muzzi gives you the power to create and securely spend anywhere using USD debit cards and payout wallets. The platform focuses on providing a seamless experience for managing international payments.'
-    //},
-    //{
-    //  title: 'The Kolanut',
-    //  description: 'Stories by African Elders',
-    //  imageUrl: '/images/placeholder.png',
-    //  projectUrl: '#',
-    //  role: 'Product Design Lead',
-    //  duties: 'Mobile and Web App Design',
-    //  detailedDescription: 'The Kolanut is a platform dedicated to preserving and sharing African heritage through storytelling. I designed an immersive experience that makes it easy for elders to share their stories and for users to discover them.'
-    //},
+    {
+    title: 'PlanPal',
+    description: 'Your Smart Daily Organizer.',
+    imageUrl: '/images/placeholder.png',
+    projectUrl: 'https://planpal1.vercel.app/',
+    role: 'Fullstack Developer',
+    duties: 'Web App Design',
+    detailedDescription: 'PlanPal is a simple and intuitive to-do list application designed to help users organize tasks, set priorities, and stay productive. With a clean interface and seamless user experience, PlanPal makes daily planning efficient—whether you are managing personal errands or project deadlines.'
+    },
+    {
+    title: 'TLS',
+    description: 'Church Website - The Lords Shepherd Ministries International',
+    imageUrl: '/images/placeholder.png',
+    projectUrl: 'https://thelordsshepherd.vercel.app/',
+    role: 'Fullstack Developer',
+    duties: 'Web App Design And Development',
+    detailedDescription: ''
+    },
     //{
     //  title: 'Phasio',
     //  description: 'Give your manufacturing clients a red-carpet experience',
