@@ -27,6 +27,10 @@ const Title = styled(motion.h1)`
   line-height: 1.2;
 
   @media (max-width: 768px) {
+    text-align: justify;
+  }
+
+  @media (max-width: 768px) {
     font-size: 2.5rem;
   }
 
