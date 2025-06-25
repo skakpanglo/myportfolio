@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Nav = styled.nav`
   font-family: 'Gambarino', serif;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 4.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +13,12 @@ const Nav = styled.nav`
   width: 100%;
   z-index: 100;
   backdrop-filter: blur(5px);
+
+  @media (max-width: 768px) {
+    padding: 1.2rem 1.2rem;
+  }
 `;
+
 
 const Logo = styled(Link)`
   font-family: 'Gambarino', serif;
