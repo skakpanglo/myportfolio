@@ -112,7 +112,7 @@ const Blog = () => {
 
   return (
     <BlogContainer>
-      <Title>Latest Tech Insights</Title>
+      <Title>You for Know</Title>
       <ComingSoonText>🚧 Coming soon. Stay tuned! 🚧</ComingSoonText>
 
       {/*

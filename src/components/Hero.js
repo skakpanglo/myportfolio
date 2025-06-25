@@ -84,22 +84,26 @@ const CTAButton = styled(Link)`
 `;
 
 const ResumeButton = styled.a`
-  font-family: 'Gambarino', serif;
   display: inline-block;
-  padding: 1rem 2rem;
-  background-color: transparent;
-  color: #000;
+  font-family: 'Gambarino', serif;
+  padding: 1rem 2.3rem;
+  min-width: 130px;
+  background: #000;
+  color: #fff;
   text-decoration: none;
-  border: 2px solid #000;
   border-radius: 5px;
   font-weight: 500;
-  transition: all 0.3s ease;
+  transition: background 0.3s ease;
+  border: none;
 
   &:hover {
-    background-color: #000;
+    background: #333;
     color: #fff;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.8rem 1.7rem;
+    min-width: 110px;
   }
 `;
 

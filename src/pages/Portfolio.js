@@ -5,10 +5,10 @@ import PortfolioCard from '../components/PortfolioCard';
 const PortfolioContainer = styled.div`
   max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.2rem 1.3rem;
 
   @media (max-width: 768px) {
-    padding: 1rem;
+    padding: 0.7rem 0.5rem;
   }
 `;
 

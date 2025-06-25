@@ -7,7 +7,7 @@ const AchievementsContainer = styled.div`
   font-family: 'Gambarino', serif;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 8rem 2rem;
+  padding: 8rem 1.4rem;
 `;
 
 const Header = styled.div`

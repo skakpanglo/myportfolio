@@ -6,12 +6,12 @@ const ContactSection = styled.section`
   min-height: auto;
   padding-bottom: 7rem;
   width: 100%;
-  padding-left: 2%;
-  padding-right: 1%;
+  padding-left: -1%;
+  padding-right: -1%;
 
   @media (max-width: 768px) {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 `;
 
