@@ -4,12 +4,17 @@ import { FiArrowUpRight } from 'react-icons/fi';
 
 const FooterContainer = styled.footer`
   font-family: 'Gambarino', serif;
-  padding: 8rem 4.2rem;
+  padding: 8rem 6.3rem;
   background-color: #111111;
   color: #fff;
 
   @media (max-width: 768px) {
     padding: 4rem 1.2rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding-left: 6.3rem;
+    padding-right: 6.3rem;
   }
 `;
 

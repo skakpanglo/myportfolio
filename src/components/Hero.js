@@ -9,12 +9,12 @@ const HeroSection = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
+  padding: 2rem 4.2rem;
   max-width: 1200px;
   margin: 0 auto;
 
   @media (max-width: 768px) {
-    padding: 1rem;
+    padding: 1rem 1.2rem;
     text-align: center;
   }
 `;
@@ -111,7 +111,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Hey👋🏻, I'm Samuel. A founder, ALX SWE Student, Mobile Application & Web Developer and CS Student @{' '}
+        Hey👋🏻, I'm Samuel. ALX SWE Student, Mobile Application & Web Developer, Cyber Security Enthusiast and CS Student @{' '}
         <a href="/" target="_blank" rel="noopener noreferrer" style={{ color: '#000' }}>
           KNUST
         </a>
@@ -121,7 +121,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        My journey as a student has been dynamic—I’ve explored design, leadership, and mentorship while building innovative projects. 
+        My journey as a student has been dynamic—I’ve explored design, mentorship, and building innovative projects. 
         I’m passionate about creating products that are not only visually appealing but also solve real problems. 
         With a strong technical foundation, I strive to bring creative ideas to life.
       </Description>

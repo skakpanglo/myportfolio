@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Nav = styled.nav`
   font-family: 'Gambarino', serif;
-  padding: 1.5rem 4.2rem;
+  padding: 1.5rem 6.3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,6 +16,11 @@ const Nav = styled.nav`
 
   @media (max-width: 768px) {
     padding: 1.2rem 1.2rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding-left: 6.3rem;
+    padding-right: 6.3rem;
   }
 `;
 
