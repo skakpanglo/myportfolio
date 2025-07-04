@@ -119,7 +119,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Hey👋🏻, I'm Samuel. ALX SWE Student, Mobile Application & Web Developer, Cyber Security Enthusiast and CS Student @{' '}
+        Hey👋🏻, I'm Samuel. ALX SWE Student, FullStack Developer, Cyber Security Enthusiast and CS Student @{' '}
         <a href="/" target="_blank" rel="noopener noreferrer" style={{ color: '#000' }}>
           KNUST
         </a>
@@ -140,7 +140,7 @@ const Hero = () => {
       >
         <ButtonContainer>
           <CTAButton to="/lets-talk">Let's talk</CTAButton>
-          <ResumeButton href="/" target="_blank" rel="noopener noreferrer">
+          <ResumeButton href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             Resume
           </ResumeButton>
         </ButtonContainer>

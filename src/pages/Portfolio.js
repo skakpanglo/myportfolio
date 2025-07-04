@@ -98,10 +98,11 @@ const Portfolio = () => {
     title: 'TLS',
     description: 'Church Website - The Lords Shepherd Ministries International',
     imageUrl: '/images/placeholder.png',
-    projectUrl: 'https://thelordsshepherd.vercel.app/',
+    projectUrl: '#',
     role: 'Fullstack Developer',
     duties: 'Web App Design And Development',
-    detailedDescription: ''
+    detailedDescription: '',
+    showComingSoon: true
     },
     //{
     //  title: 'Phasio',
