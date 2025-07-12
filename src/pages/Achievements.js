@@ -179,7 +179,7 @@ const ViewButton = styled.a`
 const Achievements = () => {
   const internships = [
     {
-      company: 'ALX Africa',
+      company: 'ALX SE Student',
       logo: 'ALX',
       duration: 'Feb 2024 - Present',
       description: 'Working on various software engineering projects, focusing on full-stack development and system design. Collaborating with international teams and mentoring fellow students.',
@@ -202,16 +202,28 @@ const Achievements = () => {
       url: '/codeappfair.pdf'
     },
     {
-      name: 'React Advanced Patterns',
-      issuer: 'Frontend Masters',
-      date: 'Jan 2024',
-      url: '#'
+      name: 'React Native: Basics to Mobile Mastery',
+      issuer: 'UDEMY',
+      date: 'July 2024',
+      url: '/Reactnative.pdf'
     },
     {
-      name: 'AWS Cloud Practitioner',
-      issuer: 'Amazon Web Services',
-      date: 'Dec 2023',
-      url: '#'
+      name: 'MTN Pulse',
+      issuer: 'MTN',
+      date: 'July 2023',
+      url: '/MTNpulse.pdf'
+    },
+    {
+      name: 'Javascript Projects Course',
+      issuer: 'UDEMY',
+      date: 'July 2023',
+      url: '/Javascript.pdf'
+    },
+    {
+      name: 'Javascript Project Course',
+      issuer: 'UDEMY',
+      date: 'July 2023',
+      url: '/javascript.pdf'
     }
   ];
 
