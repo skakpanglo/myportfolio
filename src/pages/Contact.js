@@ -193,6 +193,7 @@ const ButtonBox = styled.div`
     position: relative;
     overflow: hidden;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 
     &:hover {
       background: #4b10fe;
