@@ -89,7 +89,7 @@ const Portfolio = () => {
     title: 'PlanPal',
     description: 'Your Smart Daily Organizer.',
     imageUrl: '/images/placeholder.png',
-    projectUrl: 'https://planpal1.vercel.app/',
+    projectUrl: '/',
     role: 'Fullstack Developer',
     duties: 'Web App Design',
     detailedDescription: 'PlanPal is a simple and intuitive to-do list application designed to help users organize tasks, set priorities, and stay productive. With a clean interface and seamless user experience, PlanPal makes daily planning efficient—whether you are managing personal errands or project deadlines.'
