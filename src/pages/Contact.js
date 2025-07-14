@@ -32,7 +32,7 @@ const Heading = styled.h2`
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 4rem;
-    text-align: justify;
+    text-align: left;
   }
 `;
 
