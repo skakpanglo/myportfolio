@@ -6,12 +6,10 @@ const ContactSection = styled.section`
   min-height: auto;
   padding-bottom: 7rem;
   width: 100%;
-  padding-left: -1%;
-  padding-right: -1%;
+  padding: 0 1rem;
 
   @media (max-width: 768px) {
-    padding-left: 0%;
-    padding-right: 0%;
+    padding: 0 1rem;
   }
 `;
 
@@ -30,10 +28,11 @@ const Heading = styled.h2`
   }
 
   @media (max-width: 768px) {
-    font-size: 2.5rem;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 6rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    text-align: center;
   }
 `;
 
@@ -43,9 +42,11 @@ const ContactForm = styled.form`
   margin: 0 auto;
   text-align: left;
   padding: 0 10%;
+  width: 100%;
 
   @media (max-width: 768px) {
-    padding: 0;
+    padding: 0 1rem;
+    width: 100%;
   }
 `;
 
@@ -58,7 +59,9 @@ const InputBox = styled.div`
   gap: 2rem;
 
   @media (max-width: 768px) {
-    gap: 1rem;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
   }
 `;
 
@@ -123,15 +126,15 @@ const InputField = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
-    margin: 0.7rem 0;
+    margin: 1rem 0;
 
     input {
-      font-size: 1.2rem;
-      padding: 1rem;
+      font-size: 1.4rem;
+      padding: 1.2rem;
     }
 
     label {
-      font-size: 1.1rem;
+      font-size: 1.3rem;
     }
   }
 `;
@@ -139,7 +142,7 @@ const InputField = styled.div`
 const TextareaField = styled.div`
   font-family: 'Gambarino', serif;
   position: relative;
-  margin: 0.8rem 0 2.7rem;
+  margin: 1rem 0 2.5rem;
   width: 100%;
 
   textarea {
@@ -153,6 +156,7 @@ const TextareaField = styled.div`
     resize: none;
     transition: border-color 0.3s ease;
     font-family: inherit;
+    min-height: 120px;
 
     &::placeholder {
       color: #999;
@@ -166,9 +170,11 @@ const TextareaField = styled.div`
   }
 
   @media (max-width: 768px) {
+    margin: 1.2rem 0 2rem;
     textarea {
-      font-size: 1.2rem;
-      padding: 1rem;
+      font-size: 1.4rem;
+      padding: 1.2rem;
+      min-height: 100px;
     }
   }
 `;
@@ -186,6 +192,7 @@ const ButtonBox = styled.div`
     font-family: 'Gambarino', serif;
     position: relative;
     overflow: hidden;
+    margin-top: 1rem;
 
     &:hover {
       background: #4b10fe;
@@ -196,8 +203,10 @@ const ButtonBox = styled.div`
     }
 
     @media (max-width: 768px) {
-      font-size: 1.2rem;
-      padding: 1rem;
+      font-size: 1.4rem;
+      padding: 1.2rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
     }
   }
 `;
