@@ -115,7 +115,7 @@ const Footer = () => {
     },
     {
       name: 'x',
-      url: 'https://dribbble.com/samuelakpanglo'
+      url: 'https://x.com/__a_samuel?t=IRMTqmIEDpUJxZ3JvGg4tQ&s=09'
     },
   ];
 
