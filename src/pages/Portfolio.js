@@ -21,7 +21,7 @@ const Header = styled.div`
   }
 `;
 
-const Title = styled.h1`
+const PortfolioTitle = styled.h1`
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 
