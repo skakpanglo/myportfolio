@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { FiArrowUpRight } from 'react-icons/fi';
 import PortfolioCard from '../components/PortfolioCard';
 
 const PortfolioContainer = styled.div`
@@ -70,6 +71,109 @@ const SectionTitle = styled.h2`
     font-size: 1.8rem;
     margin: 2rem 0 1.5rem;
     text-align: center;
+  }
+`;
+
+const OtherClientsSection = styled.section`
+  background-color: #fff;
+  color: #000;
+  padding: 0;
+  margin: 2rem 0 0 0.3rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    padding: 3rem 1.2rem;
+  }
+`;
+
+const OtherClientsContainer = styled.div`
+  max-width: 1800px;
+  margin: 0 0 0 0;
+  width: 100%;
+  padding: 0 0 4rem 0;
+`;
+
+const ClientGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding-bottom: 4rem;
+  width: 100%;
+  
+  @media (max-width: 1400px) {
+    gap: 1.25rem;
+  }
+  
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding-bottom: 3rem;
+  }
+`;
+
+const ClientLink = styled.a`
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  text-decoration: none;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  min-height: 220px;
+
+  &:hover {
+    border-color: grey;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+`;
+
+const ClientName = styled.span`
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+`;
+
+const ClientRole = styled.span`
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+  font-weight: 500;
+`;
+
+const ClientDescription = styled.p`
+  font-size: 1rem;
+  color: #666;
+  margin: 0.5rem 0 0;
+  line-height: 1.6;
+`;
+
+const ClientArrow = styled(FiArrowUpRight)`
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  font-size: 1.25rem;
+  color: #999;
+  transition: all 0.3s ease;
+
+  ${ClientLink}:hover & {
+    color: grey;
+    transform: translate(4px, -4px);
   }
 `;
 
@@ -163,6 +267,27 @@ const Portfolio = () => {
   //  }
   //];
 
+  const otherClients = [
+    {
+      title: 'Lost & Found',
+      description: 'Digital Platform for Lost and Found Items',
+      imageUrl: '/images/placeholder.png',
+      projectUrl: '#',
+      role: 'Fullstack Developer',
+      duties: 'UI/UX Design & Fullstack Development',
+      detailedDescription: 'Developed a community-driven platform that helps people report and find lost items. Implemented secure user authentication, real-time notifications, and an intuitive interface for item reporting and claiming.'
+    },
+    {
+      title: 'TrueMark',
+      description: 'Advanced Counterfeit Detection System',
+      imageUrl: '/images/placeholder.png',
+      projectUrl: '#',
+      role: 'Full Stack Developer',
+      duties: 'AI Integration & System Architecture',
+      detailedDescription: 'Developed an advanced counterfeit detection system that uses AI and blockchain technology to identify fake products. The solution provides real-time verification, detailed product history, and tamper-proof authentication to combat counterfeiting across multiple industries.'
+    }
+  ];
+
   return (
     <PortfolioContainer>
       <Header>
@@ -187,6 +312,27 @@ const Portfolio = () => {
           />
         ))}
       </ProjectsGrid>
+
+      <OtherClientsSection>
+        <OtherClientsContainer>
+          <SectionTitle style={{ color: 'blue', textAlign: 'left', fontSize: '1rem', marginBottom: '3rem', fontWeight: '500' }}>Other Clients</SectionTitle>
+          <ClientGrid>
+            {otherClients.map((client, index) => (
+              <ClientLink 
+                key={`client-${index}`}
+                href={client.projectUrl || '#'} 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ClientName>{client.title}</ClientName>
+                <ClientRole>{client.role}</ClientRole>
+                <ClientDescription>{client.description}</ClientDescription>
+                <ClientArrow />
+              </ClientLink>
+            ))}
+          </ClientGrid>
+        </OtherClientsContainer>
+      </OtherClientsSection>
 
       {/* <Description style={{ marginBottom: '2rem' }}>
         I also create webflow websites and templates for the community.

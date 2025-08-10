@@ -196,6 +196,18 @@ const Achievements = () => {
 
   const certificates = [
     {
+      name: 'Cybersecurity Fundamentals',
+      issuer: 'IBM',
+      date: 'Aug 2025',
+      url: '/IBMDesign20250809-33-24kd5p.pdf'
+    },
+    {
+      name: 'Cloud Computing Fundamentals',
+      issuer: 'IBM',
+      date: 'Aug 2024',
+      url: '/IBMDesign20250807-31-65u5ql.pdf'
+    },
+    {
       name: 'Code App Fair Quest 1.0',
       issuer: 'Computer Science Society, KNUST',
       date: 'Aug 2024',
@@ -207,12 +219,13 @@ const Achievements = () => {
       date: 'July 2024',
       url: '/Reactnative.pdf'
     },
-    {
-      name: 'MTN Pulse',
-      issuer: 'MTN',
-      date: 'July 2023',
-      url: '/MTNpulse.pdf'
-    },
+    // Temporarily hiding MTN Pulse certificate
+    // {
+    //   name: 'MTN Pulse',
+    //   issuer: 'MTN',
+    //   date: 'July 2023',
+    //   url: '/MTNpulse.pdf'
+    // },
     {
       name: 'Javascript Projects Course',
       issuer: 'UDEMY',
