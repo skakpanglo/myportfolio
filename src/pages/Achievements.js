@@ -185,13 +185,13 @@ const Achievements = () => {
       description: 'Working on various software engineering projects, focusing on full-stack development and system design. Collaborating with international teams and mentoring fellow students.',
       skills: ['C Programming', 'Python', 'Shell Scripting', 'Linux', 'Git', 'Data Structures', 'Algorithms']
     },
-    //{
-    //  company: 'Codebase',
-    //  logo: 'CB',
-    //  duration: 'Jan 2024 - Present',
-    //  description: 'Leading frontend development initiatives and implementing responsive design principles. Working with modern JavaScript frameworks and state management solutions.',
-    //  skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Redux', 'API Integration']
-    //}
+    {
+      company: 'CodeAlpha',
+      logo: 'CA',
+      duration: 'July 2025 - August 2025',
+      description: 'Leading frontend development initiatives and implementing responsive design principles. Working with modern JavaScript frameworks and state management solutions.',
+      skills: ['HTML5', 'CSS3', 'JavaScript', 'API Integration', 'Git', 'GitHub']
+    }
   ];
 
   const certificates = [
@@ -208,6 +208,18 @@ const Achievements = () => {
       url: '/IBMDesign20250807-31-65u5ql.pdf'
     },
     {
+      name: 'CodeAlpha Internship Certificate',
+      issuer: 'CodeAlpha',
+      date: 'Aug 2025',
+      url: '/Samuel Katey Akpanglo codealpha.pdf'
+    },
+    {
+      name: 'CodeAlpha Letter of Recommendation',
+      issuer: 'CodeAlpha',
+      date: 'Aug 2025',
+      url: '/Samuel Katey Akpanglo Letter of Recommendation.pdf'
+    },
+    {
       name: 'Code App Fair Quest 1.0',
       issuer: 'Computer Science Society, KNUST',
       date: 'Aug 2024',
@@ -219,13 +231,6 @@ const Achievements = () => {
       date: 'July 2024',
       url: '/Reactnative.pdf'
     },
-    // Temporarily hiding MTN Pulse certificate
-    // {
-    //   name: 'MTN Pulse',
-    //   issuer: 'MTN',
-    //   date: 'July 2023',
-    //   url: '/MTNpulse.pdf'
-    // },
     {
       name: 'Javascript Projects Course',
       issuer: 'UDEMY',
@@ -237,6 +242,12 @@ const Achievements = () => {
       issuer: 'UDEMY',
       date: 'July 2023',
       url: '/javascript.pdf'
+    },
+    {
+      name: 'MTN Pulse',
+      issuer: 'MTN',
+      date: 'July 2023',
+      url: '/MTNpulse.pdf'
     }
   ];
 
