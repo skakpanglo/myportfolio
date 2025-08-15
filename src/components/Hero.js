@@ -140,7 +140,7 @@ const Hero = () => {
       >
         <ButtonContainer>
           <CTAButton to="/lets-talk">Let's talk</CTAButton>
-          <ResumeButton href="/" target="_blank" rel="noopener noreferrer">
+          <ResumeButton href="/Samuel Katey Akpanglo - Resume.pdf" target="_blank" rel="noopener noreferrer">
             Resume
           </ResumeButton>
         </ButtonContainer>
