@@ -5,11 +5,11 @@ const ContactSection = styled.section`
   font-family: 'Gambarino', serif;
   min-height: auto;
   padding-bottom: 7rem;
-  width: 100%;
-  padding: 0 1rem;
+  padding: 0 0.6rem 0 0.6rem;
+  margin-left: -1.45rem;
 
   @media (max-width: 768px) {
-    padding: 0 1rem;
+    padding: 0 1.2rem;
   }
 `;
 
@@ -75,7 +75,7 @@ const InputField = styled.div`
     width: 100%;
     padding: 1.2rem;
     font-size: 1.4rem;
-    color: #999;
+    color: #000;
     background: white;
     border-radius: none;
     border: .1rem solid lightgrey;
@@ -99,6 +99,15 @@ const InputField = styled.div`
       background: white;
       padding-right: 3rem;
       cursor: pointer;
+      color: #999;
+
+      &:focus {
+        color: #000;
+      }
+
+      &:valid {
+        color: #000;
+      }
 
       &::-webkit-calendar-picker-indicator {
         position: absolute;
