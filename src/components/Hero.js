@@ -61,8 +61,7 @@ const ButtonContainer = styled.div`
   align-items: center;
 
   @media (max-width: 480px) {
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
     gap: 1rem;
   }
 `;
