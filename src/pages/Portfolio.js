@@ -23,20 +23,6 @@ const Header = styled.div`
   }
 `;
 
-const PortfolioTitle = styled.h1`
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-  font-family: 'Gambarino', serif;
-
-  @media (max-width: 768px) {
-    font-size: 2rem;
-  }
-
-  @media (max-width: 480px) {
-    font-size: 1.8rem;
-  }
-`;
-
 const Description = styled.p`
   font-size: 3rem;
   color: #666;
