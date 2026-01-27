@@ -9,7 +9,15 @@ const ContactSection = styled.section`
   margin-left: -1.45rem;
 
   @media (max-width: 768px) {
-    padding: 0 1.2rem;
+    padding: 0 1rem;
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0 0.8rem;
+    padding-bottom: 5rem;
   }
 `;
 
