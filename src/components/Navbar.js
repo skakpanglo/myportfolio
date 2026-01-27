@@ -142,7 +142,7 @@ const Navbar = () => {
       </MenuButton>
       <NavLinks isOpen={isMenuOpen}>
         <NavLink to="/" onClick={closeMenu}>About</NavLink>
-        <NavLink to="/portfolio" onClick={closeMenu}>My Portfolio</NavLink>
+        <NavLink to="/portfolio" onClick={closeMenu}>Portfolio</NavLink>
         <NavLink to="/achievements" onClick={closeMenu}>Achievements</NavLink>
         {/* Temporarily hiding blog link
         <NavLink to="/blog" onClick={closeMenu}>Blog</NavLink>
