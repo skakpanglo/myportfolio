@@ -92,7 +92,7 @@ const Title = styled.h3`
   margin-bottom: 1rem;
   font-weight: 500;
   line-height: 1.2;
-  font-family: 'Gambarino', sans-serif;
+  font-family: 'Gambarino', serif;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -7,6 +7,7 @@ const PortfolioContainer = styled.div`
   max-width: 1100px;
   margin: 0 auto;
   padding: 1.2rem 1.3rem;
+  font-family: 'Gambarino', serif;
 
   @media (max-width: 768px) {
     padding: 0.7rem 0.5rem;
@@ -25,6 +26,7 @@ const Header = styled.div`
 const PortfolioTitle = styled.h1`
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
+  font-family: 'Gambarino', serif;
 
   @media (max-width: 768px) {
     font-size: 2rem;
@@ -41,6 +43,7 @@ const Description = styled.p`
   max-width: 900px;
   margin-top: 5.2rem;
   color: black;
+  font-family: 'Gambarino', serif;
 
   @media (max-width: 768px) {
     font-size: 1.1rem;
@@ -66,6 +69,7 @@ const SectionTitle = styled.h2`
   font-size: 1rem;
   margin: 3rem 0 2rem;
   color: blue;
+  font-family: 'Gambarino', serif;
 
   @media (max-width: 768px) {
     font-size: 1.8rem;
@@ -147,6 +151,7 @@ const ClientName = styled.span`
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+  font-family: 'Gambarino', serif;
 `;
 
 const ClientRole = styled.span`
@@ -154,6 +159,7 @@ const ClientRole = styled.span`
   color: #666;
   margin-bottom: 1rem;
   font-weight: 500;
+  font-family: 'Gambarino', serif;
 `;
 
 const ClientDescription = styled.p`
@@ -161,6 +167,7 @@ const ClientDescription = styled.p`
   color: #666;
   margin: 0.5rem 0 0;
   line-height: 1.6;
+  font-family: 'Gambarino', serif;
 `;
 
 const ClientArrow = styled(FiArrowUpRight)`
