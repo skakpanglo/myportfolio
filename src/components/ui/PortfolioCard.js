@@ -13,6 +13,11 @@ const ProjectLink = styled.a`
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+
+  &:hover h3 svg {
+    opacity: 1;
+    transform: translateX(5px) translateY(-5px);
+  }
 `;
 
 const Card = styled.div`
@@ -96,19 +101,16 @@ const Title = styled.h3`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`;
 
-const Arrow = styled(FiArrowUpRight)`
-  font-size: 1.8rem;
-  opacity: 0.3;
-  transition: all 0.3s ease;
-  stroke-width: 1.5;
-
-  ${ProjectLink}:hover & {
-    opacity: 1;
-    transform: translateX(5px) translateY(-5px);
+  svg {
+    font-size: 1.8rem;
+    opacity: 0.3;
+    transition: all 0.3s ease;
+    stroke-width: 1.5;
   }
 `;
+
+
 
 const Description = styled.p`
   color: #666;
@@ -190,7 +192,7 @@ const PortfolioCard = ({ title, description, imageUrl, projectUrl, role, duties,
           <Content>
             <Title>
               {title}
-              <Arrow />
+              <FiArrowUpRight />
             </Title>
             <Description>{description}</Description>
             <MoreInfo as="div" isOpen={isExpanded} onClick={toggleExpand}>More info</MoreInfo>

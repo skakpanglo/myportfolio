@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { FiArrowUpRight } from 'react-icons/fi';
-import PortfolioCard from '../components/PortfolioCard';
+import PortfolioCard from '../components/ui/PortfolioCard';
 
 const PortfolioContainer = styled.div`
   max-width: 1100px;
@@ -131,6 +131,20 @@ const ClientLink = styled.a`
     transform: translateY(-4px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
   }
+
+  svg {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+    font-size: 1.25rem;
+    color: #999;
+    transition: all 0.3s ease;
+  }
+
+  &:hover svg {
+    color: grey;
+    transform: translate(4px, -4px);
+  }
 `;
 
 const ClientName = styled.span`
@@ -156,19 +170,7 @@ const ClientDescription = styled.p`
   font-family: 'Gambarino', serif;
 `;
 
-const ClientArrow = styled(FiArrowUpRight)`
-  position: absolute;
-  right: 1.5rem;
-  top: 1.5rem;
-  font-size: 1.25rem;
-  color: #999;
-  transition: all 0.3s ease;
 
-  ${ClientLink}:hover & {
-    color: grey;
-    transform: translate(4px, -4px);
-  }
-`;
 
 const Portfolio = () => {
   const startupProjects = [
@@ -321,7 +323,7 @@ const Portfolio = () => {
                 <ClientName>{client.title}</ClientName>
                 <ClientRole>{client.role}</ClientRole>
                 <ClientDescription>{client.description}</ClientDescription>
-                <ClientArrow />
+                <FiArrowUpRight />
               </ClientLink>
             ))}
           </ClientGrid>

@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styled from '@emotion/styled';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import Hero from './components/sections/Hero';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
