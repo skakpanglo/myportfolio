@@ -189,7 +189,8 @@ const Portfolio = () => {
     projectUrl: '/',
     role: 'Fullstack Developer',
     duties: 'Web App Design',
-    detailedDescription: 'PlanPal is a simple and intuitive to-do list application designed to help users organize tasks, set priorities, and stay productive. With a clean interface and seamless user experience, PlanPal makes daily planning efficient—whether you are managing personal errands or project deadlines.'
+    detailedDescription: 'PlanPal is a simple and intuitive to-do list application designed to help users organize tasks, set priorities, and stay productive. With a clean interface and seamless user experience, PlanPal makes daily planning efficient—whether you are managing personal errands or project deadlines.',
+    showComingSoon: true
     },
     {
     title: 'TLS',
@@ -262,7 +263,7 @@ const Portfolio = () => {
 
   const otherClients = [
     {
-      title: 'Lost & Found',
+      title: 'FoundHub',
       description: 'Digital Platform for Lost and Found Items',
       imageUrl: '/images/placeholder.png',
       projectUrl: '#',

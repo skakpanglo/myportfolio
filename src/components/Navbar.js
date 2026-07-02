@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
+import { FiSend } from 'react-icons/fi';
 
 const Nav = styled.nav`
   font-family: 'Gambarino', serif;
@@ -74,6 +75,9 @@ const ContactButton = styled(Link)`
   border-radius: 5px;
   text-decoration: none;
   transition: background 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 
   &:hover {
     background: #333;
@@ -147,7 +151,9 @@ const Navbar = () => {
         {/* Temporarily hiding blog link
         <NavLink to="/blog" onClick={closeMenu}>Blog</NavLink>
         */}
-        <ContactButton to="/lets-talk" onClick={closeMenu}>Let's talk👋</ContactButton>
+        <ContactButton to="/lets-talk" onClick={closeMenu}>
+          Connect <FiSend />
+        </ContactButton>
       </NavLinks>
     </Nav>
   );

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { FiSend } from 'react-icons/fi';
 
 const HeroSection = styled.section`
   font-family: 'Gambarino', serif;
@@ -67,7 +68,9 @@ const ButtonContainer = styled.div`
 `;
 
 const CTAButton = styled(Link)`
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: 'Gambarino', serif;
   padding: 1rem 2rem;
   background: #000;
@@ -128,8 +131,8 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        My journey as a student has been dynamic—I’ve explored design, mentorship, and building innovative projects. 
-        I’m passionate about creating products that are not only visually appealing but also solve real problems. 
+        My journey as a student has been dynamic—I’ve explored design, mentorship, and building innovative projects.
+        I’m passionate about creating products that are not only visually appealing but also solve real problems.
         With a strong technical foundation, I strive to bring creative ideas to life.
       </Description>
       <motion.div
@@ -138,7 +141,7 @@ const Hero = () => {
         transition={{ duration: 0.8, delay: 0.4 }}
       >
         <ButtonContainer>
-          <CTAButton to="/lets-talk">Let's talk</CTAButton>
+          <CTAButton to="/lets-talk">Connect <FiSend /></CTAButton>
           <ResumeButton href="/Samuel Katey Akpanglo - Resume.pdf" target="_blank" rel="noopener noreferrer">
             Resume
           </ResumeButton>

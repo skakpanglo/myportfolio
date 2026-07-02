@@ -196,6 +196,12 @@ const Achievements = () => {
 
   const certificates = [
     {
+      name: 'Artificial Intelligence Fundamentals',
+      issuer: 'IBM',
+      date: 'Feb 2026',
+      url: '/IBMDesign20260203-32-3c9rad.pdf'
+    },
+    {
       name: 'Cybersecurity Fundamentals',
       issuer: 'IBM',
       date: 'Aug 2025',
@@ -236,12 +242,6 @@ const Achievements = () => {
       issuer: 'UDEMY',
       date: 'July 2023',
       url: '/Javascript.pdf'
-    },
-    {
-      name: 'Javascript Project Course',
-      issuer: 'UDEMY',
-      date: 'July 2023',
-      url: '/javascript.pdf'
     },
     {
       name: 'MTN Pulse',
