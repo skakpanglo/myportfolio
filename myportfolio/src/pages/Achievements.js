@@ -243,12 +243,12 @@ const Achievements = () => {
       date: 'July 2023',
       url: '/Javascript.pdf'
     },
-    {
-      name: 'MTN Pulse',
-      issuer: 'MTN',
-      date: 'July 2023',
-      url: '/MTNpulse.pdf'
-    }
+    // {
+    //   name: 'MTN Pulse',
+    //   issuer: 'MTN',
+    //   date: 'July 2023',
+    //   url: '/MTNpulse.pdf'
+    // }
   ];
 
   return (
