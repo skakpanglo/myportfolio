@@ -177,7 +177,7 @@ const Navbar = () => {
       <NavLinks isOpen={isMenuOpen}>
         <NavLink to="/" onClick={closeMenu}>About</NavLink>
         <NavLink to="/portfolio" onClick={closeMenu}>Portfolio</NavLink>
-        <NavLink to="/achievements" onClick={closeMenu} data-tooltip="Achievements">
+        <NavLink to="/achievements" onClick={closeMenu} data-tooltip="My Learnings">
           <svg width="20" height="20" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M9 6.5C10.5188 6.5 11.75 5.26878 11.75 3.75C11.75 2.23122 10.5188 1 9 1C7.48122 1 6.25 2.23122 6.25 3.75C6.25 5.26878 7.48122 6.5 9 6.5Z" fill="currentColor"></path>
             <path d="M8.25 8.47217L4.2832 7.20287C3.7456 7.03297 3.1753 7.12377 2.7183 7.45577C2.2618 7.78927 2 8.30437 2 8.86987V13.5198C2 14.2835 2.4888 14.9534 3.2168 15.1868L8.25 16.7972V8.47217Z" fill="currentColor"></path>

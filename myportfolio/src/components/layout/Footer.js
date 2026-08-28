@@ -99,7 +99,7 @@ const Footer = () => {
   const socialLinks = [
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/samuel-akpanglo-b8b9a1230'
+      // url: 'https://www.linkedin.com/in/samuel-akpanglo-b8b9a1230'
     },
     {
       name: 'Whatsapp',
@@ -107,15 +107,15 @@ const Footer = () => {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/sam_uel.a/'
+      // url: 'https://www.instagram.com/sam_uel.a/'
     },
     {
       name: 'Facebook',
-      url: 'https://web.facebook.com/kepas.kon'
+      // url: 'https://web.facebook.com/kepas.kon'
     },
     {
       name: 'x',
-      url: 'https://x.com/__a_samuel?t=IRMTqmIEDpUJxZ3JvGg4tQ&s=09'
+      // url: 'https://x.com/__a_samuel?t=IRMTqmIEDpUJxZ3JvGg4tQ&s=09'
     },
   ];
 
