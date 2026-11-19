@@ -175,7 +175,7 @@ const ClientDescription = styled.p`
 const Portfolio = () => {
   const startupProjects = [
     {
-      title: 'Connect',
+      title: 'Waste2Worth',
       description: 'Introducing Connect: The Future of Digital Networking',
       imageUrl: '/images/placeholder.png',
       projectUrl: '#',
